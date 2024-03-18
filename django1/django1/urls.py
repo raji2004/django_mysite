@@ -6,5 +6,4 @@ urlpatterns = [
     path('', views.index, name='index'),  # Define a view named 'home' to handle the root path
     path('polls/', include('polls.urls')),  # Include URL patterns for other apps
     path('admin/', admin.site.urls),
-
 ]
